@@ -1,1 +1,8 @@
-test 
+
+
+
+node("master"){
+  
+  echo "testing"
+  
+}
