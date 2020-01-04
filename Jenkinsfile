@@ -15,11 +15,10 @@ node("master"){
   
 }
 node{
-  stage("Node2"){
  println "Seconf Node"
     pipeline{
       item = "girish"
       name="Reddy"      
     }
-  }
+  
 }
