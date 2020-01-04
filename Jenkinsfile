@@ -1,7 +1,7 @@
 
 @Library('sharedLibrary')_
 
-node{
+node("master"){
  println "Seconf Node"
     pipeline{
       item = "girish"
