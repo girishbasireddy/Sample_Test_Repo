@@ -1,5 +1,5 @@
 
-
+@Library('sharedLibrary')_
 
 node("master"){
   stage("stage1"){
@@ -17,5 +17,9 @@ node("master"){
 node{
   stage("Node2"){
  println "Seconf Node"
+    pipeline{
+      item = "girish"
+      name="Reddy"      
+    }
   }
 }
