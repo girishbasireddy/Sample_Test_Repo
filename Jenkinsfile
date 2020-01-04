@@ -8,3 +8,6 @@ node("master"){
   println "value"
   
 }
+node{
+ println "Seconf Node" 
+}
