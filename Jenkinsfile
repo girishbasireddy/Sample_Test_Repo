@@ -2,12 +2,16 @@
 
 
 node("master"){
-  
+  stage("stage1"){
   def name = "ereddy"
   echo "testing"
   println "value"
+    
+  }
   
 }
 node{
- println "Seconf Node" 
+  stage("Node2"){
+ println "Seconf Node"
+  }
 }
