@@ -3,7 +3,7 @@
 
 node("master"){
  println "Seconf Node"
-    pipeline{
+    testPipeline{
       item = "girish"
       name="Reddy"      
     }
