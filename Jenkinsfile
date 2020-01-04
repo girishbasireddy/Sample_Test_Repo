@@ -4,7 +4,8 @@ import com.aexp.func
 
 node("master"){
  println "Seconf Node"
- func.func1()
+def pl = new func()
+ p1.func1()
     testPipeline{
       item = "girish"
       name="Reddy"      
